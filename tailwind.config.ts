@@ -47,6 +47,19 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        // Fruit shop colors
+        fresh: {
+          green: "hsl(var(--fresh-green))",
+        },
+        orange: {
+          accent: "hsl(var(--orange-accent))",
+        },
+        yellow: {
+          highlight: "hsl(var(--yellow-highlight))",
+        },
+        green: {
+          light: "hsl(var(--green-light))",
+        },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
@@ -62,6 +75,16 @@ export default {
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",
         sm: "calc(var(--radius) - 4px)",
+      },
+      backgroundImage: {
+        'gradient-fresh': 'var(--gradient-fresh)',
+        'gradient-citrus': 'var(--gradient-citrus)',
+        'gradient-soft': 'var(--gradient-soft)',
+      },
+      boxShadow: {
+        'soft': 'var(--shadow-soft)',
+        'medium': 'var(--shadow-medium)',
+        'strong': 'var(--shadow-strong)',
       },
       keyframes: {
         "accordion-down": {
